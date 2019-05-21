@@ -1,26 +1,6 @@
-[![Code Climate](https://codeclimate.com/github/Vagr9K/gatsby-material-starter/badges/gpa.svg)](https://codeclimate.com/github/Vagr9K/gatsby-material-starter)
-[![Issue Count](https://codeclimate.com/github/Vagr9K/gatsby-material-starter/badges/issue_count.svg)](https://codeclimate.com/github/Vagr9K/gatsby-material-starter)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/990fb54ea8094f2aa0ed77f14e859820)](https://www.codacy.com/app/Vagr9K/gatsby-material-starter?utm_source=github.com&utm_medium=referral&utm_content=Vagr9K/gatsby-material-starter&utm_campaign=Badge_Grade)
-
-<div align="center">
-    <img src="docs/logo.png" alt="Logo" width='200px' height='200px'/>
-</div>
-
-# Gatsby Material Starter
+# Jesus Bibieca's personal site
 
 A blog starter with Material design in mind for [Gatsby](https://github.com/gatsbyjs/gatsby/).
-
-[Demo website.](https://vagr9k.github.io/gatsby-material-starter/)
-
-![Screenshot](docs/screenshot.png)
-
-## GatsbyJS V2
-
-This starter is based on GatsbyJS V2, which brings progressive web app features such as automatic code and data splitting (by route), prefetching, with service worker/offline-first support and PRPL pattern.
-
-More information in the [announcement](https://www.gatsbyjs.org/blog/2018-09-17-gatsby-v2/).
-
-NOTE: You can access the v1 version of the starter via the [`v1` branch](https://github.com/Vagr9K/gatsby-material-starter/tree/v1).
 
 ## Features
 
@@ -86,36 +66,15 @@ NOTE: You can access the v1 version of the starter via the [`v1` branch](https:/
 
 NOTE: Take a look at [gatsby-advanced-starter](https://github.com/Vagr9K/gatsby-advanced-starter) if you prefer building UI from scratch and/or only interested in fundamental features.
 
-You can also visit [my personal blog](https://vagr9k.me) if you want to see a fully implemented blog based on this starter.
-
-![Article Screenshot](docs/screenshot-article.png)
-![Mobile Screenshot](docs/screenshot-mobile.png)
-
-Showcase of NetlifyCMS:
-
-![Netlify Admin Dashboard](docs/netlifyadmin-main.png)
-![Netlify Admin Post Editing](docs/netlifyadmin-edit.png)
-
 ## Getting Started
 
-Install this starter (assuming [Gatsby](https://github.com/gatsbyjs/gatsby/) is installed and updated) by running from your CLI:
+Install this locally (assuming [Gatsby](https://github.com/gatsbyjs/gatsby/) is installed and updated) by running from your CLI:
 
 ```sh
-gatsby new YourProjectName https://github.com/Vagr9K/gatsby-material-starter
+git clone git@github.com:jesusbibieca/personal-site.git
+cd personal-site
 npm install # or yarn install
-npm run develop # or gatsby develop
-```
-
-Or you can fork the project, make your changes there and merge new features when needed.
-
-Alternatively:
-
-```sh
-git clone https://github.com/Vagr9K/gatsby-material-starter YourProjectName # Clone the project
-cd YourProjectname
-rm -rf .git # So you can have your own changes stored in VCS.
-npm install # or yarn install
-npm run develop # or gatsby develop
+npm run dev # or gatsby develop
 ```
 
 ## Configuration
@@ -124,9 +83,9 @@ Edit the export object in `data/SiteConfig`:
 
 ```js
 module.exports = {
-  siteTitle: "Gatsby Material Starter", // Site title.
-  siteTitleShort: "GM Starter", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
-  siteTitleAlt: "GatsbyJS Material Starter", // Alternative site title for SEO.
+  siteTitle: "CFF", // Site title.
+  siteTitleShort: "CFF", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
+  siteTitleAlt: "We create the web", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
   siteUrl: "https://vagr9k.github.io", // Domain of your website without pathPrefix.
   pathPrefix: "/gatsby-material-starter", // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
@@ -188,12 +147,10 @@ First of all, make sure to edit `static/admin/config.yml` and add your [GitHub/G
 backend:
   name: github # Refer to https://www.netlifycms.org/docs/authentication-backends/ for auth backend list and instructions
   branch: master # Branch to update
-  repo: vagr9k/gatsby-material-starter # Repo for pushing new commits. Make sure to replace with your repo!
+  repo: jesusbibieca/personal-site
 ```
 
 You can visit `/admin/` after and will be greeted by a login dialog (depending on the auth provider you ave chosen above).
-
-For NetlifyCMS specific issues visit the [official documentation](https://www.netlifycms.org/docs/intro/).
 
 ## Theming
 
