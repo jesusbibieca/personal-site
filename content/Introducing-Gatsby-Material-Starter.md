@@ -1,5 +1,5 @@
 ---
-title: Introducing Gatsby Material Starter
+title: testing test
 date: '2018-07-02'
 cover: starter-logo-1024.png
 slug: introducing-gatsby-material-starter-v2
