@@ -1,6 +1,6 @@
 backend:
   name: github # Refer to https://www.netlifycms.org/docs/authentication-backends/ for auth backend list and instructions
-  branch: master # Branch to update
+  branch: updating-app # Branch to update
   repo: jesusbibieca/personal-site
 
 media_folder: static/assets
